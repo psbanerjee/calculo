@@ -13,23 +13,29 @@ Calculo is a premium, hardware-accelerated, dual-mode desktop scientific calcula
 - **Calculation Audit Trail Ledger:** Active running memory logging panel paired with structural cache memory navigation keys (`↑n` / `↓n`) to navigate or re-evaluate your historical calculation records.
 - **Contextual UI Hover Tooltips:** Premium styled hover-state description capsules mapping out clear operational definitions across all 50 keys.
 
----
 
-## 📦 Fast Installation (Pre-compiled Binary Package)
+## 📦 Fast Installation (Recommended)
 
-The fastest and most stable method to install Calculo on your desktop workspace is to utilize the standalone Debian package format (`.deb`).
+The easiest way to get Calculo onto your machine is to use our pre-compiled Debian standalone package wrapper hosted in our repository releases.
 
-### 1. Download the Package
-Navigate to the `releases/` directory in this repository and download the `calculo_1.0.0_amd64.deb` package file.
-
-### 2. Install the Package via APT
-Open your terminal emulator in the directory where the `.deb` file was downloaded and run the system installer:
+1. Navigate to the **Releases** section on the right-hand sidebar of this GitHub page.
+2. Download the `calculo_1.0.0_amd64.deb` file asset from the latest release launch.
+3. Open your terminal in the directory where the file was downloaded and run:
 
 ```bash
 sudo apt update
 sudo apt install ./calculo_1.0.0_amd64.deb
 
 ```
+
+4. **Launch the application:** Hit your system **Super Key** (Windows Key), type **"Calculo"**, and click the launcher icon! Alternatively, spin it up instantly from any terminal window by running:
+```bash
+calculo
+
+```
+
+
+
 
 ### 3. Launching the Application
 
